@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiran Botalji - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 3rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 1rem;
+        }
+        .skill {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .experience, .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .job, .project {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .job h3, .project h3 {
+            margin-top: 0;
+        }
+        .job .date {
+            font-style: italic;
+            color: #666;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Kiran Botalji</h1>
+        <p>PHP | Laravel | Full-Stack Web Developer (6+ Years Experience)</p>
+    </div>
+    
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Experienced Software Developer with 6+ years of expertise in full-stack web development, specializing in PHP and Laravel frameworks. Skilled in designing and maintaining scalable ERP systems, integrating e-invoice and e-way bill modules, and developing dynamic frontend and backend components. Adept at working with HTML, JavaScript, AJAX, JSON, API integration, and third-party integrations including email and document generation using TCPDF and Spreadsheets.</p>
+            <p>Location: Satara, Maharashtra, India</p>
+        </section>
+        
+        <section class="section" id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">Backend: PHP, Laravel (MVC)</div>
+                <div class="skill">Frontend: HTML, JavaScript, AJAX, JSON, Bootstrap, jQuery</div>
+                <div class="skill">Databases: MySQL</div>
+                <div class="skill">Tools: Git, Postman, TCPDF, PhpSpreadsheet</div>
+                <div class="skill">Integrations: API, Email, Report Generation</div>
+                <div class="skill">System Admin: OS Installation, Laravel Setup</div>
+            </div>
+        </section>
+        
+        <section class="section" id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <div class="job">
+                    <h3>Software Developer</h3>
+                    <p class="date">Vascorp Softwares, Satara — Jan 2019 – Present</p>
+                    <ul>
+                        <li>Developed and maintained dynamic web applications using Laravel and PHP.</li>
+                        <li>Created ERP systems for Prism IT Solutions Pvt. Ltd., including sales, purchase, design, production, inventory, and MIS modules.</li>
+                        <li>Integrated e-invoicing and e-way bill systems using APIs.</li>
+                        <li>Built user-friendly web pages using HTML, JavaScript, AJAX, and DataTables.</li>
+                        <li>Wrote optimized MySQL queries and stored procedures.</li>
+                        <li>Integrated Gmail SMTP for automated email notifications.</li>
+                        <li>Created dynamic PDF reports and invoices using TCPDF and enabled Excel export using PhpSpreadsheet.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Developer</h3>
+                    <p class="date">Aquillasoft Software Solution, Satara — Sept 2018 – Dec 2018</p>
+                    <ul>
+                        <li>Worked on building a hospital management system with PHP and MySQL.</li>
+                        <li>Handled front-end and back-end tasks, including adding, editing, and deleting data.</li>
+                        <li>Created basic user interfaces and collaborated on testing and improvements.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Trainee Software Developer</h3>
+                    <p class="date">Satara IT Solution Pvt. Ltd., Satara — Jun 2018 – Sept 2018</p>
+                    <ul>
+                        <li>Built a web application for a marriage bureau system using PHP and MySQL.</li>
+                        <li>Added features for CRUD operations on client profiles and match records.</li>
+                        <li>Designed backend for user registration, search filters, and admin panel.</li>
+                        <li>Created forms, implemented login security, and error handling.</li>
+                        <li>Collaborated on testing and launching the application.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Project Intern</h3>
+                    <p class="date">Mythos Technology, Satara — Dec 2017 – May 2018</p>
+                    <ul>
+                        <li>Worked on City Shop, an eCommerce website for local electronics stores.</li>
+                        <li>Built modules for managing products like mobiles, laptops, accessories, and TVs.</li>
+                        <li>Developed features for showroom owners to manage products, orders, and reports.</li>
+                        <li>Created customer features for browsing, cart management, and purchases.</li>
+                        <li>Added admin features for website management.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="projects">
+            <h2>Key Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>ERP System for Prism IT Solutions Pvt. Ltd.</h3>
+                    <p>Developed a comprehensive ERP system with modules for sales, purchase, design, production, inventory, and MIS. Integrated e-invoicing and e-way bill APIs.</p>
+                </div>
+                <div class="project">
+                    <h3>Hospital Management System</h3>
+                    <p>Built a full-stack hospital management system using PHP and MySQL, handling data operations and user interfaces.</p>
+                </div>
+                <div class="project">
+                    <h3>Marriage Bureau Web Application</h3>
+                    <p>Created a web app for managing client profiles, matches, and admin functions with secure login and search features.</p>
+                </div>
+                <div class="project">
+                    <h3>City Shop eCommerce Website</h3>
+                    <p>Developed an eCommerce platform for electronics stores, including product management, customer carts, and admin controls.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="education">
+            <h2>Education & Certifications</h2>
+            <p><strong>Master of Computer Applications (MCA)</strong> - Shivaji University, Kolhapur, Graduated: 2018</p>
+            <p><strong>Certifications:</strong> Certificate of Completion — C++ Training; Certificate Course in Android Technology; MS-CIT; Certificate of Publication — National Conference</p>
+            <p><strong>Academic Contributions:</strong> Research Publication: “Evolution of Online Shopping”; Seminars on E-Commerce, Software Estimation, Stack; Workshops in PHP and Android Technology.</p>
+        </section>
+        
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: botaljikiran@gmail.com</p>
+            <p>Phone: +91-9960043235</p>
+            <p>Location: Satara, Maharashtra, India</p>
+            <p>Linkedin:https://www.linkedin.com/in/kiran-botalji-0b1bb7389/</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Kiran Botalji. All rights reserved.</p>
+    </footer>
+</body>
+</html>
