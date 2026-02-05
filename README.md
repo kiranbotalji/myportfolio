@@ -6,7 +6,7 @@ This repository contains my personal projects, work samples, and web development
 ---
 ## About Me
 
-Hi, I'm **Kiran Botalji**, an experienced Software Developer with **6+ years** in full-stack web development, specializing in **PHP and Laravel**. I enjoy building **scalable ERP systems**, integrating **e-invoice and e-way bill modules**, and creating **dynamic frontend and backend solutions**.  
+Hi, I'm **Kiran Botalji**, an experienced Software Developer with **8 years** in full-stack web development, specializing in **PHP and Laravel**. I enjoy building **scalable ERP systems**, integrating **e-invoice and e-way bill modules**, and creating **dynamic frontend and backend solutions**.  
 
 I work extensively with **HTML, JavaScript, AJAX, JSON, API integrations**, and third-party services including **email and document generation using TCPDF and Spreadsheets**.  
 
