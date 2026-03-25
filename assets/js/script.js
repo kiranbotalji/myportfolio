@@ -4,7 +4,7 @@
   const fadeElements = document.querySelectorAll(".fade-up");
   const contactForm = document.getElementById("contactForm");
   const statusEl = document.getElementById("formStatus");
-  const receiverEmail = "youremail@example.com";
+  const receiverEmail = "botaljikiran@gmail.com";
 
   const onScroll = () => {
     if (!navbar) return;
@@ -73,5 +73,6 @@
   onScroll();
   revealOnView();
 })();
+
 
 
